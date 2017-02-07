@@ -1,0 +1,26 @@
+{
+  "name": "ng-fhir",
+  "version": "1.0.0",
+  "description": "Fhir client for Angular2",
+  "main": "FhirClient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunyaminsg/ng-fhir.git"
+  },
+  "keywords": [
+    "fhir",
+    "angular2",
+    "hl7",
+    "fhir-client",
+    "client"
+  ],
+  "author": "Bünyamin Sarıgül",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bunyaminsg/ng-fhir/issues"
+  },
+  "homepage": "https://github.com/bunyaminsg/ng-fhir#readme"
+}
