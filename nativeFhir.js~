@@ -183,8 +183,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	                .and(auth.$Bearer)
 	                .and(auth.$Credentials)
 	                .and(transport.$JsonData)
-	                .and($$Header('Accept', (cfg.headers['Accept'] || 'application/json')))
-	                .and($$Header('Content-Type', (cfg.headers['Content-Type'] || 'application/json')));
+	                .and($$Header('Accept', 'application/json'))
+	                .and($$Header('Content-Type', 'application/json'));
 
 	        var GET = Defaults.and($$Method('GET'));
 	        var POST = Defaults.and($$Method('POST'));
