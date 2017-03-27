@@ -1,4 +1,4 @@
-declare type fhir = any;
+import { fhir } from './nativeFHIR';
 
 export declare class FhirClient {
     private client: fhir;
