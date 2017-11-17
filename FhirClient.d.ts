@@ -22,5 +22,6 @@ export declare class FhirClient {
     nextPage(query: any): any;
     prevPage(query: any): any;
     resolve(query: any): any;
+    expand(query: any): any;
 
 }

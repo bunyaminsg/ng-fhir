@@ -59,7 +59,9 @@ export var FhirClient = (function() {
     FhirClient.prototype.resolve = function(query) {
     	return this.client.resolve(query);
     };
-
+    FhirClient.prototype.expand = function(query) {
+      return this.client.expand(query);
+    };
     return FhirClient;
 
 }());

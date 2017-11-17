@@ -224,7 +224,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	            update: PUT.and(resourcePath).end(http),
 	            nextPage: GET.and(bundle.$$BundleLinkUrl("next")).end(http),
 	            prevPage: GET.and(bundle.$$BundleLinkUrl("prev")).end(http),
-	            resolve: GET.and(refs.resolve).end(http)
+	            resolve: GET.and(refs.resolve).end(http),
+                    expand: POST.and(resourceTypePath.slash("$expand")).and(query.$SearchParams).end(http)
 	        }, adapter);
 
 	    };
