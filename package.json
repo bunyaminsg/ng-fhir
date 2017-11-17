@@ -1,6 +1,6 @@
 {
   "name": "ng-fhir",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Fhir client for Angular2",
   "main": "FhirClient.js",
   "scripts": {
